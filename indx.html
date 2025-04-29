@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript & DOM Manipulation</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 2rem; }
+        button { padding: 0.5rem 1rem; margin: 1rem; cursor: pointer; }
+        .container { margin-top: 1rem; }
+        .item { background-color: #f4f4f4; padding: 1rem; margin: 0.5rem; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to DOM Manipulation</h1>
+    </header>
+    <main>
+        <section>
+            <p id="dynamicText">Click the button to change this text!</p>
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="toggleStyle()">Toggle Style</button>
+            <button onclick="addItem()">Add Item</button>
+            <button onclick="removeItem()">Remove Item</button>
+        </section>
+        <div class="container" id="itemContainer">
+            <article class="item">Item 1</article>
+        </div>
+    </main>
+    <footer>
+        <p>Happy Coding!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
